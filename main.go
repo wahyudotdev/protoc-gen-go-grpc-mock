@@ -3,8 +3,8 @@ package main
 import (
 	_ "embed"
 	"fmt"
+	"github.com/golang/mock/mockgen/model"
 
-	"go.uber.org/mock/mockgen/model"
 	"google.golang.org/protobuf/compiler/protogen"
 	"google.golang.org/protobuf/types/pluginpb"
 )
